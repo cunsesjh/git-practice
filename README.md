@@ -2,7 +2,7 @@
 ## 1. 创建初始化好的主线
 ## 2. 分成两个项目组进行工作
 
-  - left branch
+ - left branch
   - right branch
 
     1. git fetch(获取远端最新的分支状态)
