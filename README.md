@@ -3,7 +3,7 @@
 ## 2. 分成两个项目组进行工作
 
  - left branch
-  - right branch
+ - right branch
 
     1. git fetch(获取远端最新的分支状态)
     2. git checkout -b 本地名 origin/远端名字
@@ -25,3 +25,15 @@
     2. merge
 
         `git merge origin/left`
+
+## 4. 分支的创建和合并
+
+> - 在left和right分支基础上创建各自用户名的分支
+>   - 创建本地分支
+>
+>       `git checkout -b 本地分支的名字`
+>
+>   - 将这个本地分支推送到远端(创建远端分支)
+>       
+>       `git push -u origin/远端分支的名字`
+>
