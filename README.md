@@ -48,3 +48,13 @@
 >       `git merge 本地的某个分支`[可选]
 > 
 >   - `git push`
+
+## 其他命令
+
+### 删除本地分支
+
+    `git branch -D 本地分支名`
+
+### 删除远端分支
+
+    `git push --delete origin 远端分支名`
