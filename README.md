@@ -35,5 +35,16 @@
 >
 >   - 将这个本地分支推送到远端(创建远端分支)
 >       
->       `git push -u origin/远端分支的名字`
+>       `git push -u origin 远端分支的名字`
 >
+> - 在left或right分支上merge自己的子分支
+>
+>   - 首先切换到left/right分支
+>       
+>       `git checkout 分支的名字`
+>
+>   - `git merge origin/自己的分支` 
+>       
+>       `git merge 本地的某个分支`[可选]
+> 
+>   - `git push`
